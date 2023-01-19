@@ -1,2 +1,2 @@
 # bugbounty-recon
-Bug Bounty Recon Tools
+Installer for the tools that can be used on bug bounty recon
