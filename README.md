@@ -45,7 +45,7 @@ This script installs following tools:
 1) cloud_enum
 2) S3Scanner
 
-# Web ScreenShoting Tools
+### Web ScreenShoting Tools
 
 1) aquatone
 
