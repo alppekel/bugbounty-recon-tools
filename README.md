@@ -52,10 +52,10 @@ This script installs following tools:
 
 # Usage
 
-chmod +x tools_installer.sh
+chmod +x install.sh
 
 
-Usage:  ./installer.sh
+Usage:  ./install.sh
 
 
 
