@@ -13,9 +13,8 @@ This script automates the process of installing following tools:
 3) assetfinder
 4) github-subdomains
 5) subdomainizer
-6) subdomain brutefoce wordlist - all.txt
-7) gospider
-8) hakcrawler
+6) gospider
+7) hakcrawler
 
 ### Port and Service Scanning Tools
 
