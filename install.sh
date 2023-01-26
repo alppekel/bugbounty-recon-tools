@@ -166,7 +166,8 @@ cp ~/tools/brutespray/brutespray.py ~/py-scripts/
 echo "Deleting installers"
 
 rm -rf ~/tools/cloud_enum
-rm -rf ~/tools/aquatone_zip ~/tools/aquatone_linux_amd64_1.7.0.zip
+rm -rf ~/tools/aquatone_zip
+rm -rf ~/tools/aquatone_linux_amd64_1.7.0.zip
 rm -rf ~/tools/brutespray
 rm -rf ~/tools/SubDominizer
 rm -rf ~/tools/masscan
