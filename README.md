@@ -49,6 +49,10 @@ This script automates the process of installing following tools:
 
 1) aquatone
 
+### Others
+
+1) Amass
+
 
 # Usage
 
