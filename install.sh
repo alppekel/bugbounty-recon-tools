@@ -61,17 +61,12 @@ git clone https://github.com/nsonaniya2010/SubDomainizer.git
 cd SubDomainizer
 pip3 install -r requirements.txt
 
-echo "Downloading Subdomain bruteforce wordlist -all.txt"
-
-cd ~/tools
-wget https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e51d96b2203f19f6381c8c545b278eaa0837/all.txt
-
 echo "Installing gospider - crawler"
 
 GO11MODULE=on go install github.com/jaeles-project/gospider@latest
 ln -s /root/go/bin/gospider /usr/local/bin
 
-echo "Installing hakcrawler"
+echo "Installing hakcrawler - crawler"
 
 go install github.com/hakluke/hakcrawler@latest
 ln -s /root/go/bin/hakrawler /usr/local/bin
