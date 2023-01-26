@@ -29,6 +29,11 @@ wget https://go.dev/dl/go1.19.5.linux-amd64.tar.gz
 tar -zxvf go1.19.5.linux-amd64.tar.gz -C /usr/local/
 ln -s /usr/local/go/bin/go /usr/bin
 
+echo "Installing Amass"
+
+snap install amass
+ln -s /snap/bin/amass /usr/local/bin
+
 echo "***** Installing tools for Finding Subdomains *****"
 
 echo "Installing ctfr"
