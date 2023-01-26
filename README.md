@@ -4,7 +4,7 @@
 
 Tested on Debian 11.02 amd64
 
-This script installs following tools:
+This script automates the process of installing following tools:
 
 ### Subdomain Enumeration Tools:
 
