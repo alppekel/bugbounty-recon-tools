@@ -170,7 +170,7 @@ rm -rf ~/tools/cloud_enum
 rm -rf ~/tools/aquatone_zip
 rm -rf ~/tools/aquatone_linux_amd64_1.7.0.zip
 rm -rf ~/tools/brutespray
-rm -rf ~/tools/SubDominizer
+rm -rf ~/tools/SubDomainizer
 rm -rf ~/tools/masscan
 rm -rf ~/tools/go1.19.5.linux-amd64.tar.gz
 rm -rf ~/tools/assetfinder-linux-amd64-0.1.1.tgz
