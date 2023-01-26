@@ -38,6 +38,12 @@ git clone https://github.com/UnaPibaGeek/ctfr.git
 cd ctfr/
 pip3 install -r requirements.txt
 
+echo "Install assetfinder"
+
+cd ~/tools
+wget https://github.com/tomnomnom/assetfinder/releases/download/v0.1.1/assetfinder-linux-amd64-0.1.1.tgz
+tar xzvf assetfinder-linux-amd64-0.1.1.tgz
+
 echo "Install subfinder"
 
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
@@ -172,4 +178,5 @@ rm -rf ~/tools/brutespray
 rm -rf ~/tools/SubDominizer
 rm -rf ~/tools/masscan
 rm -rf ~/tools/go1.19.5.linux-amd64.tar.gz
+rm -rf ~/tools/assetfinder-linux-amd64-0.1.1.tgz
 rm -rf ~/tools/ctfr
