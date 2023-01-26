@@ -47,7 +47,7 @@ This script automates the process of installing following tools:
 
 ### Web ScreenShoting Tools
 
-1) aquatone
+1) aquatone with chromium
 
 ### Others
 
