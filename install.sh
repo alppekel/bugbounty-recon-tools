@@ -15,7 +15,7 @@ echo "Installing required packages"
 
 apt-get update -y
 apt-get upgrade -y
-apt-get install python3 git wget snapd python3-pip make gcc -y
+apt-get install python3 git wget snapd python3-pip make gcc unzip -y
 snap install core
 
 echo "Creating 'tools' folder on working directory"
@@ -150,8 +150,8 @@ snap install chromium
 cd ~/tools
 wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip
 unzip aquatone_linux_amd64_1.7.0.zip -d aquatone_zip
-cd aquotone_zip
-ln -s aquatone /usr/bin
+cp ~/tools/aquotone_zip/aquatone .
+
 
 echo "***** Clean Up *****"
 
