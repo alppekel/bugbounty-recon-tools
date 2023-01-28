@@ -9,12 +9,12 @@ This script automates the process of installing following tools:
 ### Subdomain Enumeration Tools:
 
 1) <a href="https://github.com/UnaPibaGeek/ctfr">ctfr</a>
-2) subfinder
-3) assetfinder
-4) github-subdomains
-5) subdomainizer
-6) gospider
-7) hakcrawler
+2) <a href="https://github.com/projectdiscovery/subfinder">subfinder</a>
+3) <a href="https://github.com/tomnomnom/assetfinder">assetfinder</a>
+4) <a href="https://github.com/gwen001/github-subdomains">github-subdomains</a>
+5) <a href="https://github.com/nsonaniya2010/SubDomainizer">subdomainizer</a>
+6) <a href="https://github.com/jaeles-project/gospider">gospider</a>
+7) <a href="https://github.com/hakluke/hakrawler">hakcrawler</a>
 
 ### Port and Service Scanning Tools
 
@@ -25,7 +25,6 @@ This script automates the process of installing following tools:
 ### URL Extraction Tools
 
 1) waybackurls
-2) gau
 
 ### HTTP Probe Tools
 
