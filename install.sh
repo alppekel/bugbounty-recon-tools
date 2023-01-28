@@ -133,7 +133,10 @@ echo "***** Installing Cloud Enumeration tools *****"
 
 echo "Installing S3Scanner"
 
-pip3 install s3scanner
+cd ~/tools
+git clone https://github.com/sa7mon/S3Scanner.git
+cd S3Scanner/
+pip3 install -r requirements.txt
 
 echo "Installing cloudenum"
 
