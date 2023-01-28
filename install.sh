@@ -161,7 +161,6 @@ mkdir ~/tools/py-scripts
 
 cp ~/tools/ctfr/ctfr.py ~/tools/py-scripts/
 cp ~/tools/SubDomainizer/SubDomainizer.py ~/tools/py-scripts/
-cp ~/tools/cloud_enum/cloud_enum.py ~/tools/py-scripts/
 cp ~/tools/brutespray/brutespray.py ~/tools/py-scripts/
 
 echo "Deleting installers"
