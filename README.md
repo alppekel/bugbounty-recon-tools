@@ -8,7 +8,7 @@ This script automates the process of installing following tools:
 
 ### Subdomain Enumeration Tools:
 
-1) ctfr
+1) <a href="https://github.com/UnaPibaGeek/ctfr">ctfr</a>
 2) subfinder
 3) assetfinder
 4) github-subdomains
