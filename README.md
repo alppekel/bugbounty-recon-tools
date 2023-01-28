@@ -18,39 +18,39 @@ This script automates the process of installing following tools:
 
 ### Port and Service Scanning Tools
 
-1) masscan
-2) nmap
-3) brutespray
+1) nmap
+2) <a href="https://github.com/robertdavidgraham/masscan">masscan</a>
+3) <a href="https://github.com/x90skysn3k/brutespray">brutespray</a>
 
 ### URL Extraction Tools
 
-1) waybackurls
+1) <a href="https://github.com/tomnomnom/waybackurls">waybackurls</a>
 
 ### HTTP Probe Tools
 
-1) httprobe
-2) httpx
+1) <a href="https://github.com/tomnomnom/httprobe">httprobe</a>
+2) <a href="https://github.com/projectdiscovery/httpx">httpx</a>
 
 ### Directory Bruteforce Tools
 
-1) gobuster
+1) <a href="https://github.com/OJ/gobuster">gobuster</a>
 
 ### Fuzzing Tool
 
-1) ffuf
+1) <a href="https://github.com/ffuf/ffuf">ffuf</a>
 
 ### Cloud Enumeration Tools
 
-1) cloud_enum
-2) S3Scanner
+1) <a href="https://github.com/initstring/cloud_enum">cloud_enum</a>
+2) <a href="https://github.com/sa7mon/S3Scanner">S3Scanner</a>
 
 ### Web ScreenShoting Tools
 
-1) aquatone with chromium
+1) <a href="https://github.com/michenriksen/aquatone">aquatone</a> with chromium
 
 ### Others
 
-1) Amass
+1) <a href="https://github.com/OWASP/Amass">Amass</a>
 
 
 # Usage
