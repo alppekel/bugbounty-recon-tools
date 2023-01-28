@@ -12,7 +12,7 @@ This script automates the process of installing following tools:
 2) <a href="https://github.com/projectdiscovery/subfinder">subfinder</a>
 3) <a href="https://github.com/tomnomnom/assetfinder">assetfinder</a>
 4) <a href="https://github.com/gwen001/github-subdomains">github-subdomains</a>
-5) <a href="https://github.com/nsonaniya2010/SubDomainizer">subdomainizer</a>
+5) <a href="https://github.com/nsonaniya2010/SubDomainizer">SubDomainizer</a>
 6) <a href="https://github.com/jaeles-project/gospider">gospider</a>
 7) <a href="https://github.com/hakluke/hakrawler">hakcrawler</a>
 
