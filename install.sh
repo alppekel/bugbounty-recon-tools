@@ -76,6 +76,8 @@ python3 setup.py install
 
 echo "Installing altdns"
 
+cd ~/tools/
+git clone https://github.com/infosec-au/altdns.git
 pip3 install py-altdns=1.0.2
 
 echo "Installing gospider - crawler"
