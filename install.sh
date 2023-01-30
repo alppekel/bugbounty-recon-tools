@@ -158,7 +158,7 @@ git clone https://github.com/sa7mon/S3Scanner.git
 cd S3Scanner/
 pip3 install -r requirements.txt
 
-echo "Installing cloudenum"
+echo "Installing cloud_enum"
 
 cd ~/tools
 git clone https://github.com/initstring/cloud_enum.git
@@ -181,7 +181,7 @@ cd ~/tools
 mkdir wordlists
 cd wordlists
 
-echo "Downloading all.txt"
+echo "Downloading jhaddix - all.txt"
 wget https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e51d96b2203f19f6381c8c545b278eaa0837/all.txt
 
 mkdir commonspeak
