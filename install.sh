@@ -155,6 +155,19 @@ wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_
 unzip aquatone_linux_amd64_1.7.0.zip -d aquatone_zip
 cp ~/tools/aquotone_zip/aquatone .
 
+echo "***** Downloading wordlists *****"
+
+cd ~/tools
+mkdir wordlists
+cd wordlists
+
+echo "Downloading all.txt"
+wget https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056/raw/96f4e51d96b2203f19f6381c8c545b278eaa0837/all.txt
+
+mkdir commonspeak
+cd commonspeak
+echo "Downloading commonspeak wordlists"
+
 
 echo "***** Clean Up *****"
 
