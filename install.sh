@@ -76,6 +76,7 @@ python3 setup.py install
 
 echo "Installing altdns"
 
+pip3 install py-altdns=1.0.2
 
 echo "Installing gospider - crawler"
 
@@ -95,6 +96,14 @@ echo "Installing masscan"
 cd ~/tools
 git clone https://github.com/robertdavidgraham/masscan
 cd masscan
+make
+make install
+
+echo "Installing massdns"
+
+cd ~/tools
+git clone https://github.com/blechschmidt/massdns.git
+cd massdns
 make
 make install
 
@@ -180,6 +189,7 @@ cd commonspeak
 echo "Downloading commonspeak wordlists"
 
 wget https://raw.githubusercontent.com/assetnote/commonspeak2-wordlists/master/subdomains/subdomains.txt
+
 
 
 echo "***** Clean Up *****"
