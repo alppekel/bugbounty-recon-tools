@@ -186,11 +186,9 @@ wget https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056
 
 mkdir commonspeak
 cd commonspeak
+
 echo "Downloading commonspeak wordlists"
-
 wget https://raw.githubusercontent.com/assetnote/commonspeak2-wordlists/master/subdomains/subdomains.txt
-
-
 
 echo "***** Clean Up *****"
 
