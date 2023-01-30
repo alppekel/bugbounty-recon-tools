@@ -13,8 +13,13 @@ This script automates the process of installing following tools:
 3) <a href="https://github.com/tomnomnom/assetfinder">assetfinder</a>
 4) <a href="https://github.com/gwen001/github-subdomains">github-subdomains</a>
 5) <a href="https://github.com/nsonaniya2010/SubDomainizer">SubDomainizer</a>
-6) <a href="https://github.com/jaeles-project/gospider">gospider</a>
-7) <a href="https://github.com/hakluke/hakrawler">hakcrawler</a>
+6) <a href="https://github.com/infosec-au/altdns">altdns</a>
+7) <a href="https://github.com/ProjectAnte/dnsgen">dnsgen</a>
+
+### Crawlers
+
+1) <a href="https://github.com/jaeles-project/gospider">gospider</a>
+2) <a href="https://github.com/hakluke/hakrawler">hakcrawler</a>
 
 ### Port and Service Scanning Tools
 
@@ -31,7 +36,7 @@ This script automates the process of installing following tools:
 1) <a href="https://github.com/tomnomnom/httprobe">httprobe</a>
 2) <a href="https://github.com/projectdiscovery/httpx">httpx</a>
 
-### Directory Bruteforce Tools
+### Bruteforce Tools
 
 1) <a href="https://github.com/OJ/gobuster">gobuster</a>
 
@@ -48,9 +53,15 @@ This script automates the process of installing following tools:
 
 1) <a href="https://github.com/michenriksen/aquatone">aquatone</a> with chromium
 
+### Wordlists
+
+1) <a href="https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056">jhaddix - all.txt</a>
+2) <a href="https://github.com/assetnote/commonspeak2-wordlists">commonspeak</a>
+
 ### Others
 
 1) <a href="https://github.com/OWASP/Amass">Amass</a>
+2) <a href="https://github.com/blechschmidt/massdns">massdns</a>
 
 
 # Usage
