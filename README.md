@@ -66,7 +66,9 @@ This script automates the process of installing following tools:
 
 # Usage
 
+You need to run this script as root or with sudo.
+```
 Usage:  chmod +x install.sh;./install.sh
-
+```
 
 
