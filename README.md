@@ -30,6 +30,7 @@ This script automates the process of installing following tools:
 ### URL Extraction Tools
 
 1) <a href="https://github.com/tomnomnom/waybackurls">waybackurls</a>
+2) <a href="https://github.com/lc/gau">getallurls (gau)</a>
 
 ### HTTP Probe Tools
 
