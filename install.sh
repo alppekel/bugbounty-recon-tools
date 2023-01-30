@@ -129,6 +129,11 @@ echo "Installing waybackurls"
 go install github.com/tomnomnom/waybackurls@latest
 ln -s /root/go/bin/waybackurls /usr/local/bin
 
+echo "Installing getallurls (gau)
+
+go install github.com/lc/gau/v2/cmd/gau@latest
+ln -s /root/go/bin/gau /usr/local/bin
+
 echo "Installing HTTP Probe Tools"
 
 echo "Installing httprobe"
