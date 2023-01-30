@@ -66,6 +66,17 @@ git clone https://github.com/nsonaniya2010/SubDomainizer.git
 cd SubDomainizer
 pip3 install -r requirements.txt
 
+echo "Installing dnsGen"
+
+cd ~/tools
+git clone https://github.com/ProjectAnte/dnsgen
+cd dnsgen
+pip3 install -r requirements.txt
+python3 setup.py install
+
+echo "Installing altdns"
+
+
 echo "Installing gospider - crawler"
 
 GO11MODULE=on go install github.com/jaeles-project/gospider@latest
@@ -167,6 +178,8 @@ wget https://gist.githubusercontent.com/jhaddix/86a06c5dc309d08580a018c66354a056
 mkdir commonspeak
 cd commonspeak
 echo "Downloading commonspeak wordlists"
+
+wget https://raw.githubusercontent.com/assetnote/commonspeak2-wordlists/master/subdomains/subdomains.txt
 
 
 echo "***** Clean Up *****"
