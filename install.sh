@@ -78,7 +78,9 @@ echo "Installing altdns"
 
 cd ~/tools/
 git clone https://github.com/infosec-au/altdns.git
-pip3 install py-altdns=1.0.2
+cd altdns
+pip3 install -r requirements.txt
+python3 setup.py install
 
 echo "Installing gospider - crawler"
 
@@ -129,7 +131,7 @@ echo "Installing waybackurls"
 go install github.com/tomnomnom/waybackurls@latest
 ln -s /root/go/bin/waybackurls /usr/local/bin
 
-echo "Installing getallurls (gau)
+echo "Installing getallurls (gau)"
 
 go install github.com/lc/gau/v2/cmd/gau@latest
 ln -s /root/go/bin/gau /usr/local/bin
