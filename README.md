@@ -19,7 +19,7 @@ This script automates the process of installing following tools:
 ### Crawlers
 
 1) <a href="https://github.com/jaeles-project/gospider">gospider</a>
-2) <a href="https://github.com/hakluke/hakrawler">hakcrawler</a>
+2) <a href="https://github.com/hakluke/hakrawler">hakrawler</a>
 
 ### Port and Service Scanning Tools
 
