@@ -87,7 +87,7 @@ echo "Installing gospider - crawler"
 GO11MODULE=on go install github.com/jaeles-project/gospider@latest
 ln -s /root/go/bin/gospider /usr/local/bin
 
-echo "Installing hakcrawler - crawler"
+echo "Installing hakrawler - crawler"
 
 go install github.com/hakluke/hakrawler@latest
 ln -s /root/go/bin/hakrawler /usr/local/bin
