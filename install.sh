@@ -89,7 +89,7 @@ ln -s /root/go/bin/gospider /usr/local/bin
 
 echo "Installing hakcrawler - crawler"
 
-go install github.com/hakluke/hakcrawler@latest
+go install github.com/hakluke/hakrawler@latest
 ln -s /root/go/bin/hakrawler /usr/local/bin
 
 
