@@ -196,6 +196,13 @@ cd commonspeak
 echo "Downloading commonspeak wordlists"
 wget https://raw.githubusercontent.com/assetnote/commonspeak2-wordlists/master/subdomains/subdomains.txt
 
+echo "***** Installing Interlace *****"
+cd ~/tools
+git clone https://github.com/codingo/Interlace.git
+cd Interlace
+python3 setup.py install
+
+
 echo "***** Clean Up *****"
 
 echo "Copying python scripts into same directory"
