@@ -63,7 +63,7 @@ This script automates the process of installing following tools:
 
 1) <a href="https://github.com/OWASP/Amass">Amass</a>
 2) <a href="https://github.com/blechschmidt/massdns">massdns</a>
-
+3) <a href="https://github.com/codingo/Interlace">Interlace</a>
 
 # Usage
 
