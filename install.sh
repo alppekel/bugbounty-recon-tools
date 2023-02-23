@@ -204,7 +204,7 @@ python3 setup.py install
 
 echo "Installing Nuclei"
 
-go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@lastest
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 ln -s /root/go/bin/nuclei /usr/local/bin
 
 echo "***** Clean Up *****"
