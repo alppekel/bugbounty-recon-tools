@@ -207,6 +207,12 @@ echo "Installing Nuclei"
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 ln -s /root/go/bin/nuclei /usr/local/bin
 
+echo "Installing anew"
+
+go install -v github.com/tomnomnom/anew@latest
+ln -s /root/go/bin/anew /usr/local/bin
+
+
 echo "***** Clean Up *****"
 
 echo "Copying python scripts into same directory"
